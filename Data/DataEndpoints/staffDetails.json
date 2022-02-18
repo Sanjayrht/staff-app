@@ -1,0 +1,42 @@
+  [
+      {
+        "id": 1,
+        "name": "Sanjay",
+        "email": "abc@gmail.com",
+        "phone": "9999999999",
+        "vertical": "Development",
+        "role": "Developer",
+        "access": "SuperAdmin",
+        "location": "DHA"
+      },
+      {
+        "id": 2,
+        "name": "Manoj",
+        "email": "pqr@gmail.com",
+        "phone": "7896543210",
+        "vertical": "Marketing",
+        "role": "Marketer",
+        "access": "Admin",
+        "location": "DHA"
+      },
+      {
+        "name": "Naveen",
+        "phone": "8888888888",
+        "email": "sainiarpit12@gmail.com",
+        "vertical": "Operations",
+        "role": "Packer",
+        "access": "Standard",
+        "location": "NOI",
+        "id": 3
+      },
+      {
+        "name": "Kamini",
+        "phone": "4444444444",
+        "email": "kaminirht601@gmail.com",
+        "vertical": "Operations",
+        "role": "Developer",
+        "access": "SuperAdmin",
+        "location": "NOI",
+        "id": 4
+      }
+    ]

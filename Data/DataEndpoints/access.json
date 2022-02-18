@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "accName": "Standard"
+    },
+    {
+        "id": 2,
+        "accName": "Admin"
+    },
+    {
+        "id": 3,
+        "accName": "SuperAdmin"
+    }
+]

@@ -1,0 +1,140 @@
+{
+  "staffDetails": [
+    {
+      "id": 1,
+      "name": "Sanjay",
+      "email": "abc@gmail.com",
+      "phone": "9999999999",
+      "vertical": "Development",
+      "role": "Developer",
+      "access": "SuperAdmin",
+      "location": "DHA"
+    },
+    {
+      "id": 2,
+      "name": "Manoj",
+      "email": "pqr@gmail.com",
+      "phone": "7896543210",
+      "vertical": "Marketing",
+      "role": "Marketer",
+      "access": "Admin",
+      "location": "DHA"
+    },
+    {
+      "name": "Naveen",
+      "phone": "8888888888",
+      "email": "sainiarpit12@gmail.com",
+      "vertical": "Operations",
+      "role": "Packer",
+      "access": "Standard",
+      "location": "NOI",
+      "id": 3
+    },
+    {
+      "name": "Kamini",
+      "phone": "4444444444",
+      "email": "kaminirht601@gmail.com",
+      "vertical": "Operations",
+      "role": "Developer",
+      "access": "SuperAdmin",
+      "location": "NOI",
+      "id": 11
+    }
+  ],
+  "locationName": [
+    {
+      "id": 1,
+      "locName": "DHA"
+    },
+    {
+      "id": 2,
+      "locName": "NOI"
+    }
+  ],
+  "verticName": [
+    {
+      "id": 1,
+      "varName": "Sales",
+      "rName": [
+        {
+          "id": 1,
+          "roleName": "Executives"
+        },
+        {
+          "id": 2,
+          "roleName": "Interns"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "varName": "Operations",
+      "rName": [
+        {
+          "id": 1,
+          "roleName": "Returns"
+        },
+        {
+          "id": 2,
+          "roleName": "Packer"
+        },
+        {
+          "id": 3,
+          "roleName": "Assembler"
+        },
+        {
+          "id": 4,
+          "roleName": "Pharmacist"
+        },
+        {
+          "id": 5,
+          "roleName": "Finance"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "varName": "Design",
+      "rName": [
+        {
+          "id": 1,
+          "roleName": "Designer"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "varName": "Development",
+      "rName": [
+        {
+          "id": 1,
+          "roleName": "Developer"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "varName": "Marketing",
+      "rName": [
+        {
+          "id": 1,
+          "roleName": "Marketer"
+        }
+      ]
+    }
+  ],
+  "accessName": [
+    {
+      "id": 1,
+      "accName": "Standard"
+    },
+    {
+      "id": 2,
+      "accName": "Admin"
+    },
+    {
+      "id": 3,
+      "accName": "SuperAdmin"
+    }
+  ]
+}

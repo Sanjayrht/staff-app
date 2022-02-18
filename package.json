@@ -2,10 +2,12 @@
   "name": "staff-management-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Sanjayrht.github.io/staff-management-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -13,9 +15,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "json-server": "npx json-server --watch Data/staff.json --watch Data/location  --port 8000",
+    "dev" : "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

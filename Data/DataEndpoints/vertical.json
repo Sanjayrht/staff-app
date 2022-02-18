@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "varName": "Sales",
+        "rName": [
+            {
+                "id": 1,
+                "roleName": "Executives"
+            },
+            {
+                "id": 2,
+                "roleName": "Interns"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "varName": "Operations",
+        "rName": [
+            {
+                "id": 1,
+                "roleName": "Returns"
+            },
+            {
+                "id": 2,
+                "roleName": "Packer"
+            },
+            {
+                "id": 3,
+                "roleName": "Assembler"
+            },
+            {
+                "id": 4,
+                "roleName": "Pharmacist"
+            },
+            {
+                "id": 5,
+                "roleName": "Finance"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "varName": "Design",
+        "rName": [
+            {
+                "id": 1,
+                "roleName": "Designer"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "varName": "Development",
+        "rName": [
+            {
+                "id": 1,
+                "roleName": "Developer"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "varName": "Marketing",
+        "rName": [
+            {
+                "id": 1,
+                "roleName": "Marketer"
+            }
+        ]
+    }
+]
