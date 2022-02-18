@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/staff-management-app/static/css/main.5161fb23.css",
+    "main.js": "/staff-management-app/static/js/main.bf8b2e79.js",
+    "static/js/787.b53d2b42.chunk.js": "/staff-management-app/static/js/787.b53d2b42.chunk.js",
+    "index.html": "/staff-management-app/index.html",
+    "main.5161fb23.css.map": "/staff-management-app/static/css/main.5161fb23.css.map",
+    "main.bf8b2e79.js.map": "/staff-management-app/static/js/main.bf8b2e79.js.map",
+    "787.b53d2b42.chunk.js.map": "/staff-management-app/static/js/787.b53d2b42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5161fb23.css",
+    "static/js/main.bf8b2e79.js"
+  ]
+}
