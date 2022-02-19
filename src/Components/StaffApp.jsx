@@ -28,8 +28,6 @@ const Staffapp = (props) => {
         else {
             setShowCard(false)
         }
-
-        // return () => window.removeEventListener("keyup", handleKeyUp);
         return () => window.removeEventListener("resize", HandleScreen)
 
     }, [screen])
